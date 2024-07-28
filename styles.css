@@ -272,6 +272,61 @@ main .MonsterFrame .Description p span {
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 500px) {
+  main .banner {
+    height: 20vh;
+  }
+  main nav {
+    width: 100%;
+    font-size: 0.3rem;
+  }
+  main .MainFrame {
+    height: 20vh;
+  }
+  main .MainFrame .Details {
+    font-size: 0.3rem;
+  }
+  main .MainFrame .Details p {
+    height: -moz-fit-content;
+    height: fit-content;
+    max-height: 50px;
+  }
+  main .HunterFrame {
+    height: 20vh;
+  }
+  main .HunterFrame .WeaponClasses {
+    padding-left: 10px;
+  }
+  main .HunterFrame .Description {
+    font-size: 0.4rem;
+  }
+  main .HunterFrame .Description p {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main .HunterFrame .Description p span {
+    font-size: 0.7rem;
+    margin-bottom: 1%;
+  }
+  main .MonsterFrame {
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  main .MonsterFrame .Description {
+    font-size: 0.4rem;
+  }
+  main .MonsterFrame .Description p {
+    max-width: 150px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main .MonsterFrame .Description p span {
+    font-size: 0.7rem;
+    margin-bottom: 1%;
+  }
+}
 @media screen and (max-width: 1000px) {
   .Details {
     font-size: 0.7rem;
